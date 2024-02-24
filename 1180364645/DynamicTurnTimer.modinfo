@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="19913a5c-a91a-4cc8-ae88-991889a667bd" version="1">
+  <Properties>
+    <Name>Civic's custom timer</Name>
+    <Description>Eto mod s kastomnym tajmerom dlya civikov.</Description>
+    <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003">2.0</CustomProperties>
+    <Created>1577141505</Created>
+    <Teaser>Custom multiplayer timer</Teaser>
+    <Authors>Leodroid</Authors>
+    <SupportsSinglePlayer>0</SupportsSinglePlayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions />
+  <InGameActions>
+    <UpdateDatabase id="TurnTimer">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>TurnTimer.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>TurnTimer.sql</File>
+  </Files>
+</Mod>
