@@ -2,7 +2,7 @@
 <Mod id="19913a5c-a91a-4cc8-ae88-991889a667bd" version="1">
   <Properties>
     <Name>Civic's custom timer</Name>
-    <Description>Eto mod s kastomnym tajmerom dlya civikov.</Description>
+    <Description>Easy fast timer mod</Description>
     <CustomProperties xmlns="http://schemas.microsoft.com/developer/msbuild/2003">2.0</CustomProperties>
     <Created>1577141505</Created>
     <Teaser>Custom multiplayer timer</Teaser>
